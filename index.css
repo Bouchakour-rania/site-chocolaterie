@@ -30,7 +30,7 @@
   width: 100%;
 }
 #home{
-  background-image: url('home.jpg');
+  background-image: url('images/home.jpg');
   margin: 0px;
   justify-content: center;
   align-items: center;
@@ -124,13 +124,13 @@ img {
         margin-bottom: 30px;
       }
       #tproduit{
-        background-image: url('menu.jpg');
+        background-image: url('images/menu.jpg');
         padding-top: 0;
         /****margin: 0;****888*****/
       }
       #pproduit{
         margin-top: 1rem;
-        background-image: url(menu1.jpg);
+        background-image: url(images/menu1.jpg);
         background-repeat: no-repeat;
         /**border: 1px solide rgba(0, 0, 0, 0);**/
         height: 727px;
@@ -245,14 +245,14 @@ h1 {
 }
 
 #aboutus2{
-  background-image: url(hhh.jpg);
+  background-image: url(images/hhh.jpg);
   background-repeat: no-repeat;
   height: 531px;
  align-items: center;
   justify-content: center;
 }
 #ga3taht{
-  background-image: url(backc.jpg);
+  background-image: url(images/backc.jpg);
   background-repeat: no-repeat;
   max-height: 750px;
 
