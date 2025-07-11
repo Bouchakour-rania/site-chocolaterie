@@ -1,0 +1,316 @@
+
+#tout{
+  border:0;
+  margin: 0%;
+}
+
+.p1 a{
+    float: left;
+
+   
+    padding-left:50px;
+    
+   
+   
+}
+.p1{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 50px;
+    padding-left:300px ;
+    
+
+}
+#id1{
+  display: flex;
+  background-color: bisque;
+  /**margin-bottom: 20px;**/
+  position: fixed;
+  width: 100%;
+}
+#home{
+  background-image: url('home.jpg');
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border-color: maroon;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(35, 35, 128, 0);
+  padding-top:0;
+  
+}
+#home button{
+  margin-left: 550px;
+  margin-top: 70px;
+  border-radius: 10px;
+  border-width: 10px;
+  width: 150px;
+  background-color:rgb(246, 216, 180);
+  border-color: rgb(237, 203, 160);
+  font-size: larger;
+}
+#home h3{
+  color: black;
+  padding-top: 100px;
+}
+#home .lr{
+  margin-left: 500px;
+  font-size: larger;
+}
+p{
+  color: black;
+  font-size: x-large;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+
+}
+h3{
+  color: black;
+}
+a{
+  text-decoration:none;
+    color: black;
+    text-align: center;
+}
+a:hover{
+  text-decoration: underline;
+  color:red ;
+}
+button{
+  text-align: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 4 colonnes avec la même largeur */
+  grid-gap: 20px; /* Espacement entre les images */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#produits{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crée 4 colonnes de largeur égale */
+    gap: 50px; /* Espacement entre les photos */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10rem;
+  }
+      /* Styles pour la galerie */
+      .galerie{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        padding-bottom: 10px;
+          }
+      .cts {
+        flex-basis: 200px;
+        margin: 10px;
+        max-width: 100%;
+        height: 200px;
+        width: 300px;
+      }
+      h3 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      #tproduit{
+        background-image: url('menu.jpg');
+        padding-top: 0;
+        /****margin: 0;****888*****/
+      }
+      #pproduit{
+        margin-top: 1rem;
+        background-image: url(menu1.jpg);
+        background-repeat: no-repeat;
+        /**border: 1px solide rgba(0, 0, 0, 0);**/
+        height: 727px;
+      }
+      figcaption{
+        color:black;
+      }
+      /**htu**/
+      .team-section {
+        padding: 40px 0;
+      }
+      
+      .section-title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      
+      .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .team-member {
+        width: 200px;
+        margin: 10px;
+        text-align: center;
+      }
+      
+      .member-name {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #777;
+      }
+      
+      .member-role {
+        font-size: 14px;
+        color: black;
+        padding: 15px;
+      }
+      /*****/
+      /* Reset des marges et des paddings par défaut */
+body, form, label, input, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+/* Centrer le formulaire */
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Espacement des champs de formulaire */
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style pour le bouton de soumission */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style pour le titre du formulaire */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style pour les icônes des réseaux sociaux */
+/* Style pour la section Notre Équipe */
+#team {
+  margin-top: 50px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.team-member {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.member-name {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.member-role {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#aboutus2{
+  background-image: url(hhh.jpg);
+  background-repeat: no-repeat;
+  height: 531px;
+ align-items: center;
+  justify-content: center;
+}
+#ga3taht{
+  background-image: url(backc.jpg);
+  background-repeat: no-repeat;
+  max-height: 750px;
+
+}
+#contact{
+  background-color: burlywood;
+  height: 100px;
+}
+
+
+/* Ajouter une marge entre les sections pour l'espace souhaité */
+#tout > div:not(:last-child) {
+  margin-bottom: 0px;
+}
+/* Pour les petits écrans (jusqu'à 767px) */
+@media screen and (max-width: 767px) {
+  /* Réduire la taille du logo */
+  img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* Aligner les liens de navigation verticalement */
+  .p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Mettre les boutons en largeur 100% */
+  button {
+    width: 100%;
+  }
+  
+  /* Réduire la taille des images de produits */
+  #pnt {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Mettre les figures de produits en une seule colonne *
+  #produits figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;*/
+  }
+  
+  /* Réduire la taille des images de la galerie */
+  .cts img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Mettre les div de la galerie en une seule colonne */
+  .galerie .cts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
